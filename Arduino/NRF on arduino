@@ -1,0 +1,11 @@
+The code for basic sending and receiving data between two NRFs connected to two different arduinos is given here.
+
+Connections :
+VCC -> 3.3V
+GND -> GND
+CE -> D9
+CS -> D10
+SCK -> D13
+MOSI -> D11
+MISO -> D12
+IRQ -> none
