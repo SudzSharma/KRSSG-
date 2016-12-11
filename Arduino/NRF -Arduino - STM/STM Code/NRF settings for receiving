@@ -1,0 +1,10 @@
+NRF Code on STM32F407VG for receiving data on nrf from arduino.
+
+Settings : 
+VCC - 3.3V
+GND - GND
+CE - PD8
+CSN - PD7
+SCK - PC10
+MOSI - PC12
+MISO - PC11
