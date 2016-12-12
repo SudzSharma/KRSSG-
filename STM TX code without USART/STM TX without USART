@@ -1,1 +1,4 @@
 This folder contains the code for STM as sender for NRF without using USART.
+
+This is the old code left for backup.
+Please refer to the new code available in the folder NRF.
