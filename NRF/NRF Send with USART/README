@@ -1,0 +1,3 @@
+Code for sending data from STM via NRF.
+USART is working in this case.
+6 bytes of data are being received via USART interrupt and being forwarded using SPI.
