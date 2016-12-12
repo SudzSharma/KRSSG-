@@ -1,0 +1,7 @@
+This folder contains all the final running codes of the NRF running on the STM32F407VG
+Arduino codes are located in a different folder
+
+Folder contains 
+-NRF Sending without USART
+-NRF Sending with USART
+-NRF Receiving
