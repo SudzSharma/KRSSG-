@@ -1,0 +1,3 @@
+Code for sending the data through the NRF.
+Data is NOT being received via USART.
+It is hardcoded by a function Data() called in the main().
