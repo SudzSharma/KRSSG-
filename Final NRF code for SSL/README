@@ -1,0 +1,14 @@
+Contains the final ssl code for 6 bots with reception of 32 bytes of data.
+Format of input signal:
+  Byte[0] = Team ID
+  Byte[1] to Byte[4] = velocities for bot 1
+  Byte[5] = kicker and dribbler options for bot 1
+            0 -> Both are deactivated
+            1 -> kicker is activated, Dribbler is deactivated
+            2 -> Dribbler is activated, kicker is deactivated
+            3 -> Both are activated
+ 
+ The same format is repeated for the other bots where each bot gets 5 bytes of information.
+ The data is sent in chronological order ie team ID, bot 1, bot 2 and so on.
+ 
+The final code is located in the main.c file.
